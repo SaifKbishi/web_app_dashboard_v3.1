@@ -1,0 +1,104 @@
+
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #111;
+  /*max-width: 95%;*/
+}
+
+.main-header{
+	display: flex;
+	flex-direction: row;
+  background-color: #7477BF;
+  max-height: 65px;
+  justify-content: space-between;
+  padding: 5px 2px 5px 2px;
+  color: #FFF;
+}
+.main-header p{
+  padding: 10px;
+  }
+.vl {
+  border-left: 1px solid #6B6A6A;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  padding: 0 3px;
+}
+
+#app_name{
+  margin-right: auto;
+}
+
+img{
+  width: 55px;
+  padding: 5px;
+}
+
+[class^="icon"] {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  fill:#00aae5;
+  padding: 20px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Style the buttons inside the tab */
+.tabs  {
+  overflow: hidden;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabs:hover {
+  background-color: #ddd;
+}
+.tabs_search{
+
+}
+#searchBar{
+  width:250px;
+  margin: 10px 20px 10px 50%;
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  }
+
+.sidebar{
+  background-color: #4D4C72;
+  width: 65px;
+  /* min-height: 960px; */
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+}
+.main{
+  margin-left: 65px;
+  padding: 0px 10px;
+}
+
+.Alerts{
+  top: 50px;,
+  }

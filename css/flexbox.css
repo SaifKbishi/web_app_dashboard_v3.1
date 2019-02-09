@@ -1,0 +1,65 @@
+.Sidebar{
+		flex-direction: row;
+	}
+.Sidebar ul{
+	display: flex;
+	justify-content: space-around;
+}
+.social{
+	flex-direction: column;
+}
+.col-x-3{
+	display: flex;
+}
+.memberDetails{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+/* =================================
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+	.main-header,
+	.main-nav,
+  .row{
+		display: flex;
+	}
+	.main-header {
+		flex-direction: row;
+		/* align-items: center; */
+	}
+  .col{
+    flex:1 50%;
+  }
+  .row{
+    flex-wrap:wrap;
+  }
+	.Sidebar{
+		flex: 1;
+		/* height: 100% */
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+  .col{
+    flex-basis:0;
+  }
+  .primary{
+    flex-grow:1;
+  }
+	.Sidebar{
+		position: absolute;
+	}
+	.Sidebar ul{
+		display: block;
+	}
+
+
+}
